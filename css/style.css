@@ -55,3 +55,91 @@ body {
     background: #878097;
     padding: 20px;
   }
+  .nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-link{
+    position: relative;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #fff;
+  }
+  .nav-link::after{
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: -5px;
+    width: calc(100% - 20px);
+    height: 2px;
+    opacity: 0;
+    background-color: #fff;
+    transition: .5s;
+  }
+  .nav-link:hover::after{
+    opacity: 1;
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slidein {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(100% - 20px);
+    }
+  }
+  /* main style */
+
+.main{
+    flex: 1;
+    margin-bottom: auto;
+    background: linear-gradient(180.00deg, rgba(3, 56, 244, 0.71),rgba(224, 37, 206, 0.79) 93.75%);
+  
+  }
+  .main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px 14px;
+  }
+
+
+
+  .footer{
+    padding: 20px;
+    /* background: #1b2e39; */
+    background: #878097;
+    
+  }
+  .footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-github-link, .footer-copy{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #fff;
+  }
+  .footer-github-icon{
+    width: 46px;
+    height: 46px;
+    padding-right: 15px;
+  }
+  .footer-rss-icon{
+    width: 83;
+    height: 46px;
+  }
+  
