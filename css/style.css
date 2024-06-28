@@ -112,6 +112,277 @@ body {
     gap: 10px;
     padding: 10px 14px;
   }
+  .left-container{
+    width: calc(45% - 10px);
+    padding: 10px 18px 46px;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.3);
+   
+    
+  }
+  .section-left-conteiner{
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+    padding: 6px 17px 20px 22px;
+    margin-bottom: 12px;
+  }
+  .section-left-title{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+  }
+  .section-profile{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 20px;
+  
+  }
+  .section-profile-logo{
+    margin-right: 22px;
+    width: 110px;
+    height: 116px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  .section-profile-logo:hover{
+    transform: scale(1.1);
+  }
+  
+  .section-profile-title-name{
+    padding-bottom: 5px;
+    font-family: "Montserrat";
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+  }
+  .name-first{
+    padding: 5px 0;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(206, 202, 202);
+  }
+  
+  
+  .section-subtitle{
+    padding-bottom: 9px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(206, 202, 202);
+    line-height: 18px;
+  }
+  
+  
+  /* section-contacts */
+  .section-contacts{
+    margin-bottom: 13px;
+  }
+  .section-contacts-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    background: rgba(196, 196, 196, 0.35);
+    height: 38px;
+    padding: 0 17px 0 69px;
+    margin-bottom: 5px;
+  }
+  .section-contacts-item:last-child{
+    margin-bottom: 0;
+  }
+  .section-contacts-item::before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 17px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .section-contacts-item:nth-child(1)::before{
+    background-image: url(../assets/svg/icon_call.svg) ;
+  }
+  .section-contacts-item:nth-child(2)::before{
+    background-image: url(../assets/svg/icon_mail.svg) ;
+  }
+  .section-contacts-item:nth-child(3)::before{
+    background-image: url(../assets/svg/icon_githab.svg) ;
+  }
+  .section-contacts-item:nth-child(4)::before{
+    background-image: url(../assets/svg/icon_discod.svg) ;
+  }
+  .section-contacts-item:nth-child(5)::before{
+    background-image: url(../assets/svg/icon_location.svg) ;
+  }
+  .section-contacts-link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFF;
+  }
+  .section-contacts-link:hover{
+    opacity: 0.7;
+  }
+  
+  /* section courses style*/
+  .section-courses-item{
+    position: relative;
+  }
+  .section-courses-item::before{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+  }
+
+  .right-container{
+  width: 55%;
+  padding: 19px 14px 30px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+.section-right-title::after{
+  content: "";
+  position: absolute;
+  width: 120%;
+  top: 50%;
+  left: 100%;
+  border: 1px solid rgb(84, 84, 84);
+}
+.section-right-title{
+  position: relative;
+  text-align: center;
+  width: 45%;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background: rgb(84, 84, 84);
+}
+
+.section-right h2{
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+}
+.section-subtitle-container{
+  padding: 12px 33px 12px 0;
+}
+
+.section-summary-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  
+}
+.section-right-subtitle{
+  font-family: "Calibri";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: rgb(52, 52, 52);
+}
+.section-right-desc{
+  font-family: "Calibri";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(52, 52, 52);
+}
+.section-right-desc__date{
+  font-family: "Calibri";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(115, 128, 141);
+}
+
+
+
+
+
+
+/*right-container style  */
+.right-container{
+    width: 55%;
+    padding: 19px 14px 30px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+  }
+  .section-right-title::after{
+    content: "";
+    position: absolute;
+    width: 120%;
+    top: 50%;
+    left: 100%;
+    border: 1px solid rgb(84, 84, 84);
+  }
+  .section-right-title{
+    position: relative;
+    text-align: center;
+    width: 45%;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: rgb(84, 84, 84);
+  }
+  
+  .section-right h2{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+  }
+  .section-subtitle-container{
+    padding: 12px 33px 12px 0;
+  }
+  
+  .section-summary-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    
+  }
+  .section-right-subtitle{
+    font-family: "Calibri";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgb(52, 52, 52);
+  }
+  .section-right-desc{
+    font-family: "Calibri";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(52, 52, 52);
+  }
+  .section-right-desc__date{
+    font-family: "Calibri";
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(115, 128, 141);
+  }
 
 
 
