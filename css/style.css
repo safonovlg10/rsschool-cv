@@ -472,7 +472,18 @@ body {
   left: 16px;
   background: url(../assets/svg/icon_javascript.svg) no-repeat;
 }
-
+.progress75{
+  --progress: 75%;
+}
+.progress55{
+  --progress: 55%;
+}
+.progress40{
+  --progress: 40%;
+}
+.progress35{
+  --progress: 35%;
+}
 .skills-container-other__skills-icon:nth-child(1) > .progress-circle::after{
   width: 20px;
   height: 30px;
