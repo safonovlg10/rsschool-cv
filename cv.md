@@ -1,4 +1,4 @@
-# [rsschool-cv](https://safonovlg10.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://safonovlg10.github.io/rsschool-cv)
 # Safonov Vitalik
 ### Junior Frontend Developer
 
@@ -17,6 +17,12 @@ Hello, I’ll tell you a little about myself. I tried to study on my own, but my
 * Git, GitHub
 * Webpack
 * Angular
+
+## My works:
+* [Shelter](https://rolling-scopes-school.github.io/safonovlg10-JSFEPRESCHOOL2024Q2/shelter)
+* [Audio Player](https://rolling-scopes-school.github.io/safonovlg10-JSFEPRESCHOOL2024Q2/audio-player)
+* [Christmas Shop](https://rolling-scopes-school.github.io/safonovlg10-JSFE2024Q4/christmas-shop)
+
 ## Code example:
 ```
 function digital_root(n) {
