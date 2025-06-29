@@ -425,7 +425,30 @@ body {
   height: var(--circle-size);
   margin-bottom: 5px;
   border-radius: 50%;
-  background-image: conic-gradient(var(--color) var(--progress), #FFF 0);
+}
+.skills-html {
+  background-image: conic-gradient(var(--color) 70%, #FFF 0);
+}
+.skills-css {
+  background-image: conic-gradient(var(--color) 65%, #FFF 0);
+}
+.skills-javascript {
+  background-image: conic-gradient(var(--color) 60%, #FFF 0);
+}
+.skills-figma {
+  background-image: conic-gradient(var(--color) 55%, #FFF 0);
+}
+.skills-photoshop {
+  background-image: conic-gradient(var(--color) 40%, #FFF 0);
+}
+.skills-illustrator {
+  background-image: conic-gradient(var(--color) 20%, #FFF 0);
+}
+.skills-xd {
+  background-image: conic-gradient(var(--color) 20%, #FFF 0);
+}
+.skills-indesign {
+  background-image: conic-gradient(var(--color) 30%, #FFF 0);
 }
 .progress-circle::before {
   --inner-circle-size: calc(var(--circle-size) - var(--border-width));
